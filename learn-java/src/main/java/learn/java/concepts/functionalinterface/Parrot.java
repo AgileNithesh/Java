@@ -3,9 +3,9 @@ package learn.java.concepts.functionalinterface;
 
 public class Parrot implements Bird{
 
-    public static void main(string[] args) {
-        Parrot p = new Parrot();
-        p.arielView();
-    }
 
+    @Override
+    public void canFly(String val) {
+        IO.println("Fly");
+    }
 }
