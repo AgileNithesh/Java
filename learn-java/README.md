@@ -74,7 +74,7 @@
                                 No memory compaction.
   * G1 Garbage Collector - Best effort no pause of application threads with memory compaction, 
                            Default GC from Java 17+, default pause time target is 200ms, 
-                           pause time target can be configured.
+                           pause time target can be configured. 
   * ZGC - ZGC (Z Garbage Collector) is a scalable, low-latency GC in modern Java versions, 
           targeting sub-millisecond pauses (<1-10ms) independent of heap size (8MB to 16TB). 
           It uses colored pointers, load/store barriers, and region-based concurrent mark-relocate
