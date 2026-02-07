@@ -17,7 +17,7 @@ public class CollectionFramework {
      *
      *  Collection vs Collections
      *  -- Collections is the utility class provides methods like sort(), min(), swap(), copy(), etc..
-     *  -- Collection
+     *  -- Collection is an interface which exposes methods which is implemented by classes like ArrayList, Queue, etc.
      *
      */
 
