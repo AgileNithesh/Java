@@ -25,6 +25,9 @@ public class QueueInCollections {
      * 2 types of Priority Queue -- min , max
      * - It is absed on priority heap
      * - Elements are ordered according to either Natural Ordering or by Comparator
+     * - doesn't maintain insertion order
+     * - Not thread safe
+     * - Thread Safe -- PriorityBlockingQueue
      *
      */
 
