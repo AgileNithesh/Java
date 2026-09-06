@@ -2,6 +2,7 @@ package learn.java.concepts.functionalinterface;
 
 //functional interface is the interface with only one abstract method
 //can have default and static methods also the methods in Object class
+//below annotation is optional
 @FunctionalInterface
 public interface Bird{
     void canFly(String val);
